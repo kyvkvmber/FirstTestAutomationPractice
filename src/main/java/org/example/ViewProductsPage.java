@@ -15,8 +15,15 @@ public class ViewProductsPage {
         this.driver = driver;
     }
 
-    public ViewProductsPage PopulateFilterInputBar()
-    {
+    public ViewProductsPage PopulateFilterInputBar(){
+        return this;
+    }
+
+    public ViewProductsPage ClickFilterButton(){
+        return this;
+    }
+
+    public ViewProductsPage ClickResetButton(){
         return this;
     }
 }
